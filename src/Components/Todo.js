@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
 
-const Todo = ({ todo, index, completeTodo, undoComplete, removeTodo }) => {
+const Todo = ({ todo, index, completeTodo, removeTodo }) => {
   return (
     <div
       className="todo"
